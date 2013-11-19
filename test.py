@@ -17,6 +17,7 @@ s = scan.ScanBeam('lambda_um', 0.5, 2., 200,'llambda', 0.5, 2., 200,**kwds)
 s.calc()
 s.save()
 
+
 #kwds['eta'] = 0.8
 #s = scan.ScanBeam('t', 0.1,0.9, 100,'lambda_um', 0.1,1.1,100,**kwds)
 #s.calc()
